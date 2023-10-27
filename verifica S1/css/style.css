@@ -13,6 +13,9 @@ body{
     font-size: 1.2em;
     width: 450px;
 }
+/*👉main👈*/
+
+/*👉header👈*/
 header{
 
     width: 100%;
@@ -29,6 +32,7 @@ header img{
 header div{
     text-align: center;
 }
+/*👉Corso web dev section👈*/
 button{
     color: white;
     border: none;
@@ -37,6 +41,10 @@ button{
    /*👉 font-size:1.2em ;👈*/
     margin-bottom: 15px;
     background-color: #f04c2f;
+}
+article a{
+    width: 240px;
+    text-decoration: none;
 }
 main article section:first-child{
     
@@ -49,16 +57,9 @@ main article section:nth-child(1) p{
     padding: 30px;
     font-size: 1.5em;
 }
-article a{
-    width: 240px;
-    text-decoration: none;
-}
-
+/*👉round image section👈*/
 article section:nth-child(2) img{
-    
-    
     width: 200px;
-    
     border-radius: 100px;
 }
 article section:nth-child(2){
@@ -67,6 +68,11 @@ article section:nth-child(2){
 }
 article section:nth-child(2) p, h2, h3{
     margin-top: 15px;
+}
+article section:nth-child(2) h3{
+    color: #25a2c3;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 b{
     font-weight: bold;
@@ -81,16 +87,7 @@ h1{
 h2{
     font-size: 2rem;
 }
-/*👉article section:nth-child(2) h2{
-    color: #25a2c3;
-    font-size: 1.5rem;
-    font-weight: bold;
-}👈*/
-article section:nth-child(2) h3{
-    color: #25a2c3;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
+/*👉orange section👈*/
 article section:nth-child(3){
     color: white;
     padding: 20px;
@@ -101,6 +98,7 @@ article section:nth-child(3){
 article section:nth-child(3) p{
     margin: 30px 0 0 0;
 }
+/*👉3 pics section👈*/
 article section:nth-child(4){
     text-align: center;
 }
@@ -128,6 +126,7 @@ article section:nth-child(4) p:last-child{
     border-bottom: 1px solid rgb(209, 209, 209) ;
 
 }
+/*👉footer👈*/
 footer{
     text-align: center;
     color: white;
