@@ -69,6 +69,7 @@ article section:nth-child(2) div:nth-child(1){
 }
 article section:nth-child(2) div:nth-child(2){
     margin: -890px 0 200px 1000px;
+    padding: 0 500px 0 0;
 
 }
 article section:nth-child(2) p, h2, h3{
