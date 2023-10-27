@@ -49,7 +49,10 @@ main article section:nth-child(1) p{
     padding: 30px;
     font-size: 1.5em;
 }
-
+article a{
+    width: 240px;
+    text-decoration: none;
+}
 
 article section:nth-child(2) img{
     
