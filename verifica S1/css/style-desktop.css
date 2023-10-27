@@ -63,12 +63,12 @@ article section:nth-child(2){
     padding: 10px 10px 10px 20%;
    
 }
-article section:nth-child(2) div:nth-child(2){
-    margin: -890px 0 200px 1000px;
+article section:nth-child(2) div:nth-child(1){
+    padding-left: 50rem;
 
 }
-article section:nth-child(2) div:nth-child(1){
-    padding-left: 5rem;
+article section:nth-child(2) div:nth-child(2){
+    margin: -890px 0 200px 1000px;
 
 }
 article section:nth-child(2) p, h2, h3{
